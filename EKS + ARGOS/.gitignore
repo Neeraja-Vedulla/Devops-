@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+*.tfstate
+
+# Kubernetes
+kubeconfig
+*.kube/
+
+# ArgoCD
+argocd-initial-admin-secret.yaml
