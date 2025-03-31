@@ -1,6 +1,5 @@
 # 🚀 AWS Serverless Event-Driven Data Pipeline
 
-![Architecture Diagram](./screenshots/architecture.png)  
 *An automated pipeline that processes files upon upload to S3, stores metadata in DynamoDB, and monitors performance with CloudWatch.*
 
 ## 🌟 Key Features
