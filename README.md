@@ -1,14 +1,13 @@
-# Welcome to your CDK TypeScript project
+# 🚀 AWS Serverless Event-Driven Data Pipeline  
 
-This is a blank project for CDK development with TypeScript.
+**Tech Stack**: AWS CDK, Lambda, S3, DynamoDB, CloudWatch  
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Features  
+✔ **Event-Driven Processing** – Auto-trigger Lambda on S3 uploads  
+✔ **Error Handling** – CloudWatch logging & alarms  
+✔ **Cost Optimized** – S3 lifecycle rules, DynamoDB auto-scaling  
 
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+## Deployment  
+1. Install dependencies:  
+   ```bash
+   npm install
